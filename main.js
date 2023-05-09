@@ -66,3 +66,5 @@ function speak()
     synth.speak(utterThis);
     speak_data="";
 }
+var SpeechRecognition = window.webkitSpeechRecognition;
+var recognition = new SpeechRecognition();
